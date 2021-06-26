@@ -7,38 +7,45 @@ realizar a tarefa.
   
   ----------------- PROGRAMA --------------------
   
-    #include <stdio.h>
-    #include <stdlib.h> 
-    #include <conio.h>
+   
+#include <stdio.h>
+#include <stdlib.h>
+
+void OrdemC(int n, float *vetor) {
+ 
+  for(int i = 0; i < n-1; i++) {
+      for( int j = i + 1; j < n; j++){
+        if(vetor[i] > vetor[j]){
+            float a = vetor[i];
+            vetor[i] = vetor[j];
+            vetor[j] = a;
+}
+}
+}
+}
+
+int main() {
+   float *vetor;
+   int n;
+
     
-  int main(void)
-    {
-      float *v; 
-      int i, num_componentes;
-      
-      printf("Informe o numero de componentes do vetor\n");
-      scanf("%d", &num_componentes);
-      
-      v = (float *) malloc(num_componentes * sizeof(float));
-      
+   printf("Informe o numero de componentes do vetor\n")
+   scanf("%d", &n);
+   vetor = malloc(n * sizeof(float));
+
+   for(int i = 0; i < n; i++){
+      scanf("%f", &vetor[i]);
+   }
+   OrdemC(n, vet);
+   for(int i = 0; i < n; i++)
+   {
+     printf("%.2f ", vetor[i]);
+   }
    
-      for (i = 0; i < num_componentes; i++)
-      {
-        printf("\nDigite o valor para a posicao %d do vetor: ", i+1);
-        scanf("%f",&v[i]);
-      }
-      
-   
-      printf("\n*********** Valores do vetor dinamico ************\n\n");
-      
-      for (i = 0;i < num_componentes; i++)
-      {
-        printf("%.2f\n",v[i]);
-      }
-      
-      
-      free(v);
-      
-      getch();
-      return 0;
-    }
+  
+  free(vetor);
+  getch();
+ 
+  return 0;
+
+}
