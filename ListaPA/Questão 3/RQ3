@@ -26,5 +26,5 @@ i receberá um valor em um edereço, tornando a  operação, legal.
 q = *p; :
 Note que está sendo usado um operador de referência, quando na verdade , deveria ser um operador de endereço , isso torna nossa operação ilegal.
 
-i = (*p)++ + *q; --> retorna o valor para o qual p aponta, somado com o que q aponta e depois incrementa o valor apontado por p, logo, a operação é correta.
+i = (*p)++ + *q; :
 A operação é legal, pois irá retornar o valor para qual p aponta, vai somar e depois incrementar o valor apontado.
