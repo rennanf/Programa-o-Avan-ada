@@ -5,29 +5,29 @@ Quais serão os valores de x+1, x+2 e x+3 se:
 
 ◦ x for declarado como char? ◦ 
 
-char pos 0 = 0x7ffd82da0f28
-char pos 1 = 0x7ffd82da0f29
-char pos 2 = 0x7ffd82da0f2a
-char pos 0 = 0x7ffd82da0f2b
+char posicao 0 = 0x7ffd82da0f28
+char posicao 1 = 0x7ffd82da0f29
+char posicao 2 = 0x7ffd82da0f2a
+char posicao 0 = 0x7ffd82da0f2b
 
 x for declarado como int? 
 
- int pos 0= 0x7ffd82da0f10
- int pos 1= 0x7ffd82da0f14
- int pos 2= 0x7ffd82da0f18  
- int pos 3= 0x7ffd82da0f1c
+ int posicao 0= 0x7ffd82da0f10
+ int posicao 1= 0x7ffd82da0f14
+ int posicao 2= 0x7ffd82da0f18  
+ int posicao 3= 0x7ffd82da0f1c
     
     
  x for declarado como float? 
    
- float pos 0= 0x7ffd82da0f00
- float pos 1= 0x7ffd82da0f04
- float pos 2= 0x7ffd82da0f08
- float pos 3= 0x7ffd82da0f0c
+ float posicao 0= 0x7ffd82da0f00
+ float posicao 1= 0x7ffd82da0f04
+ float posicao 2= 0x7ffd82da0f08
+ float posicao 3= 0x7ffd82da0f0c
      
  x for declarado como double?
    
- double pos 0 = 0x7ffd82da0ee0
- double pos 0 = 0x7ffd82da0ee8
- double pos 0 = 0x7ffd82da0ef0
- double pos 0 = 0x7ffd82da0ef8
+ double posicao 0 = 0x7ffd82da0ee0
+ double posicao 0 = 0x7ffd82da0ee8
+ double posicao 0 = 0x7ffd82da0ef0
+ double posicao 0 = 0x7ffd82da0ef8
