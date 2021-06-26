@@ -13,12 +13,12 @@ realizar a tarefa.
 
 void OrdemC(int n, float *vetor) {
  
-  for(int i = 0; i < n-1; i++) {
-      for( int j = i + 1; j < n; j++){
-        if(vetor[i] > vetor[j]){
-            float a = vetor[i];
-            vetor[i] = vetor[j];
-            vetor[j] = a;
+for(int i = 0; i < n-1; i++) {
+for( int j = i + 1; j < n; j++){
+if(vetor[i] > vetor[j]){
+float a = vetor[i];
+vetor[i] = vetor[j];
+vetor[j] = a;
 }
 }
 }
